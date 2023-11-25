@@ -34,7 +34,7 @@ public class inicio {
 			
 			System.out.println("Te quedan " + intentos-- + " intentos");
 			
-			if(intentos == 0) {
+			if(intentos == 0) { 
 				
 			}
 		}while(numeroIntroducido != numeroGenerado | );
@@ -49,12 +49,12 @@ public class inicio {
 			if(numeroIntroducido > numeroGenerado) {
 				System.out.println("Tu numero es mayor que el numero Generado");
 			}
-			else
+			else if (numeroIntroducido < numeroGenerado)
 			{
 				System.out.println("Tu numero es menor que el numero introducido");
 			}
 			
-			if (numeroIntroducido == numeroGenerado)
+			else
 			{
 				System.out.println("FELICIDADES");
 				System.out.println("Numero de intentos: " + (10-intentos));
